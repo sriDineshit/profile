@@ -1,0 +1,122 @@
+.navcontainer{
+    position: sticky;
+    top: 0 ;
+    z-index: 1000;
+   
+    background-color:#735DA5;
+    margin: 0;
+    padding: 0;
+}
+.active{
+  color: yellow;
+}
+.navbar{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 5rem;
+    max-width: 90rem;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    
+}
+ .navbaricon{
+     display: none;
+} 
+.navbaricon_clbtn{
+  display: none;
+}
+.navicon_container{
+  display: none;
+}
+.navmoblieitems{
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  background: #176d74fc;
+  flex-direction: column;
+  
+ align-items: center;
+ width: 100%;
+ animation-name: navanime ;
+ animation-duration: 0.5s;
+ border-bottom-left-radius: 50%;
+}
+
+.navbarmenitemlist{
+    margin: 10rem;
+    cursor: pointer;
+    font-size: large;
+    font-family: system-ui;
+    transition: 0.3s ease-in-out;
+
+}
+.navbarmenitemlist:hover{
+    
+    padding-bottom: 8px;
+    border-bottom: 2px solid whitesmoke;
+    font-family: system-ui;
+}
+.navcontactbtn{
+    outline: none;
+    font-size: medium;
+    border: none;
+    border-radius: 2rem;
+    height: 3rem;
+    padding: 5px 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    font-family: system-ui;
+}
+.navcontactbtn:hover{
+    background-color: whitesmoke;
+    color: #6247AA;
+   
+
+}
+.navcontactbtn .img{
+    object-fit: contain;
+    width: 1.5rem;
+    background: transparent;
+    margin: 2px 10px;
+}
+
+@keyframes navanime {
+  from{
+   
+    border-radius: 100%;
+  }
+  to{
+    border-bottom-left-radius: 50%;
+  }
+}
+@media screen and (max-width: 768px){
+  .navmenuitems{
+    display: none;
+    align-items: center;
+  }
+  .navicon_container{
+    display: block;
+  }
+  .navbaricon{
+    display: block;
+
+  }
+  .navbaricon_clbtn{
+    display: block;
+    position: absolute;
+    right: 1rem;
+    
+  }
+  .navcontactbtn{
+    display: none;
+  }
+  .navbar{
+    padding: 0 1rem;
+  }
+}

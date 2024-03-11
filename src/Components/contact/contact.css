@@ -1,0 +1,120 @@
+.contactcontainer{
+  margin: 6%;
+  margin-top: -8px;
+  color: #fbfbfb;
+}
+  .msg-gif {
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    object-fit: fill;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    padding: 0 7%;
+  }
+  .contact-details-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+.contact-details-wrapper p{
+    font-size: 1.6rem;
+}
+
+  @media screen and (max-width: 920px) {
+    /* margin-top: 6%; */
+    .contact-content {
+      flex-direction: column-reverse;
+    }
+    .contact-details-wrapper {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+      gap: 2rem;
+    }
+    .contact-img-wrapper {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 720px) {
+    .msg-gif {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+
+.contactbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background-color: grey;
+    color: white;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+   cursor: pointer;
+   
+   
+   &:hover{
+    background-color: whitesmoke;
+    color: #6247AA;
+    box-shadow: 0 0 18px 4px #c4ced2;
+ 
+    
+  }
+    
+  }
+svg {
+    font-size: xx-large;
+  }
+  /* .contact-btn:hover {
+    background-color: whitesmoke;
+    color: #00C4FF;
+    box-shadow: 0 0 18px 4px #00C4FF;
+ 
+    
+  } */
+
+  @media screen and (max-width: 680px) {
+    .contact-btn {
+      height: 40px;
+      width: 40px;
+      
+    }
+    svg {
+      font-size: x-large;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .contact-btn {
+      height: 32px;
+      width: 32px;
+
+      
+    }
+    svg {
+      font-size: large;
+    }
+    
+  }

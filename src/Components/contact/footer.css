@@ -1,0 +1,14 @@
+.footercontainer{
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+
+
+  hr {
+    border: none;
+    border-top: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 0 2rem;
+  }
+ 
