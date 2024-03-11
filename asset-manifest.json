@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.d5a7d128.css",
+    "main.js": "/profile/static/js/main.97b49752.js",
+    "static/media/message.gif": "/profile/static/media/message.ecb964d21c1779696066.gif",
+    "static/media/aug.pdf": "/profile/static/media/aug.159740959f8b67f94a79.pdf",
+    "static/media/VVW.png": "/profile/static/media/VVW.abb93e31788a7b44d710.png",
+    "static/media/MIRS.png": "/profile/static/media/MIRS.374fa2923b3732b78bd4.png",
+    "static/media/education.svg": "/profile/static/media/education.416e669b1236d390a450c7824e975009.svg",
+    "index.html": "/profile/index.html",
+    "main.d5a7d128.css.map": "/profile/static/css/main.d5a7d128.css.map",
+    "main.97b49752.js.map": "/profile/static/js/main.97b49752.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5a7d128.css",
+    "static/js/main.97b49752.js"
+  ]
+}
